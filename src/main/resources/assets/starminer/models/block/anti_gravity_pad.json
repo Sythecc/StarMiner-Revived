@@ -1,0 +1,7 @@
+{
+    "parent": "block/carpet",
+    "textures": {
+        "wool": "starminer:blocks/antigrav",
+        "particle" : "blocks/portal"
+    }
+}
