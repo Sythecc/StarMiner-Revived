@@ -1,11 +1,34 @@
 {
-  "forge_marker": 1,
-  "variants": {
-    "normal": {
-      "model": "starminer:anti_gravity_pad"
-    },
-    "inventory": {
-      "model": "starminer:anti_gravity_pad"
+    "forge_marker": 1,
+    "variants": {
+        "facing=up": {
+            "model": "starminer:anti_gravity_pad"
+        },
+        "facing=down": {
+            "model": "starminer:anti_gravity_pad",
+            "x": 180
+        },
+        "facing=north": {
+            "model": "starminer:anti_gravity_pad",
+            "x": 90
+        },
+        "facing=south": {
+            "model": "starminer:anti_gravity_pad",
+            "y": 180,
+            "x": 90
+        },
+        "facing=west": {
+            "model": "starminer:anti_gravity_pad",
+            "y": 270,
+            "x": 90
+        },
+        "facing=east": {
+            "model": "starminer:anti_gravity_pad",
+            "y": 90,
+            "x": 90
+        },
+        "inventory": {
+            "model": "starminer:anti_gravity_pad"
+        }
     }
-  }
 }

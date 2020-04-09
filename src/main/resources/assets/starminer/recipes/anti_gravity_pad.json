@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "carpet",
+    "pattern": [
+        "#*#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wool",
+            "data": 0
+        },
+        "*": {
+            "item": "minecraft:ender_pearl"
+        }
+    },
+    "result": {
+        "item": "starminer:anti_gravity_pad",
+        "count": 6
+    }
+}
